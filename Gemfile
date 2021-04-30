@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.2'
+ruby '2.6.7'
 
 gem 'rails', '~> 6.1.0'
 gem 'sqlite3', '~> 1.4'
@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'graphql', '1.11.6'
 gem 'bcrypt', '~> 3.1.13'
 gem 'search_object_graphql', '0.3.1'
+gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dabd025dcbd36a8a60f'
 
 gem 'bootsnap', '>= 1.4.4', require: false
 
