@@ -1,8 +1,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.7'
-
 gem 'rails', '~> 6.1.0'
 gem 'puma', '~> 5.0'
 gem 'sass-rails', '>= 6'
@@ -46,5 +44,5 @@ group :production do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'graphiql-rails', '1.7.0', group: :development
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# gem 'graphiql-rails', '1.7.0', group: :development
