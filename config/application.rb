@@ -8,7 +8,7 @@ Bundler.require(*Rails.groups)
 
 module SkipApi
   class Application < Rails::Application
-    # Initialize configuration defaults for originally generated Rails version.
+    # Initialize configuration defaults for originally generated Rails version.manifest.js
     config.load_defaults 6.1
 
     # Configuration for the application, engines, and railties goes here.
