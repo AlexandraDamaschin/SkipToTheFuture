@@ -8,6 +8,7 @@ gem 'webpacker', '~> 5.0'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'graphql', '1.11.6'
+gem "graphiql-rails", "~> 1.7"
 gem 'bcrypt', '~> 3.1.13'
 gem 'search_object_graphql', '0.3.1'
 gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dabd025dcbd36a8a60f'
